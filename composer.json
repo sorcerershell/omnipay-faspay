@@ -1,0 +1,23 @@
+{
+    "name": "sorcerershell/omnipay-faspay",
+    "description": "Faspay Driver for Omnipay PHP payment library",
+    "type": "library",
+    "require": {
+        "omnipay/common": "~2.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Agus Supriyadi",
+            "email": "supriyadi.agus@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\Faspay\\": "src/"
+        }
+    }
+}
